@@ -55,14 +55,14 @@ export default function Hero() {
 
             <motion.h1
               {...fadeUp(0.2)}
-              className="font-display text-6xl md:text-7xl lg:text-8xl font-700 leading-none mb-2"
+              className="font-display text-6xl md:text-7xl lg:text-8xl font-bold leading-none mb-2"
             >
               Janani <span className="gradient-text">K</span>
             </motion.h1>
 
             <motion.p
               {...fadeUp(0.3)}
-              className="font-display text-xl md:text-2xl text-gray-400 font-400 mb-6"
+              className="font-display text-xl md:text-2xl text-gray-400 font-normal mb-6"
             >
               AI & Data Science Student
               <span className="text-brand-orange"> | </span>
@@ -114,7 +114,7 @@ export default function Hero() {
                 { num: '3mo', label: 'Internship' },
               ].map((s) => (
                 <div key={s.label}>
-                  <div className="font-display text-3xl font-700 text-white">{s.num}</div>
+                  <div className="font-display text-3xl font-bold text-white">{s.num}</div>
                   <div className="text-xs text-gray-500 font-mono mt-1">{s.label}</div>
                 </div>
               ))}

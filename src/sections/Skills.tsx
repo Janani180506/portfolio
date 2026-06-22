@@ -102,7 +102,7 @@ export default function Skills() {
             >
               <div className="flex items-center gap-3 mb-6">
                 <span className="text-2xl">{cat.emoji}</span>
-                <h3 className="font-display font-600 text-white">{cat.label}</h3>
+                <h3 className="font-display font-semibold text-white">{cat.label}</h3>
               </div>
               {cat.skills.map((skill, si) => (
                 <SkillBar

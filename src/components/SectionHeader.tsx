@@ -16,7 +16,7 @@ export default function SectionHeader({ label, title, subtitle }: SectionHeaderP
       className="mb-14 text-center"
     >
       <span className="section-label">{label}</span>
-      <h2 className="font-display text-4xl md:text-5xl font-700 text-white mt-3 mb-4">{title}</h2>
+      <h2 className="font-display text-4xl md:text-5xl font-bold text-white mt-3 mb-4">{title}</h2>
       {subtitle && <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">{subtitle}</p>}
       <div className="flex justify-center mt-6">
         <div className="w-12 h-0.5 bg-brand-orange rounded-full" />

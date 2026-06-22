@@ -20,7 +20,7 @@ export default function Resume() {
               <HiDocumentText size={40} />
             </div>
 
-            <h3 className="font-display text-2xl font-700 text-white mb-3">Janani K — Resume</h3>
+            <h3 className="font-display text-2xl font-bold text-white mb-3">Janani K — Resume</h3>
             <p className="text-gray-500 mb-8">
               B.Tech AI & Data Science · Aspiring AI Engineer · Web Developer Intern
             </p>
@@ -32,7 +32,7 @@ export default function Resume() {
                 { num: '1', label: 'Internship' },
               ].map((s) => (
                 <div key={s.label} className="bg-brand-darker/60 rounded-xl p-4">
-                  <div className="font-display text-2xl font-700 gradient-text">{s.num}</div>
+                  <div className="font-display text-2xl font-bold gradient-text">{s.num}</div>
                   <div className="font-mono text-xs text-gray-500 mt-1">{s.label}</div>
                 </div>
               ))}

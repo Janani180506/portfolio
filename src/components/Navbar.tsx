@@ -61,7 +61,7 @@ export default function Navbar({ dark, setDark }: NavbarProps) {
           <a
             href="#home"
             onClick={(e) => { e.preventDefault(); scrollTo('#home') }}
-            className="font-display font-700 text-xl text-white hover:text-brand-orange transition-colors"
+            className="font-display font-bold text-xl text-white hover:text-brand-orange transition-colors"
           >
             Janani<span className="text-brand-orange"> K</span>
           </a>
@@ -72,7 +72,7 @@ export default function Navbar({ dark, setDark }: NavbarProps) {
               <button
                 key={link.href}
                 onClick={() => scrollTo(link.href)}
-                className={`px-4 py-2 text-sm font-sans font-500 rounded-full transition-all duration-200 ${
+                className={`px-4 py-2 text-sm font-sans font-medium rounded-full transition-all duration-200 ${
                   active === link.href.replace('#', '')
                     ? 'text-brand-orange'
                     : 'text-gray-400 hover:text-white'
@@ -94,7 +94,7 @@ export default function Navbar({ dark, setDark }: NavbarProps) {
 
             <a
               href="#"
-              className="hidden md:inline-flex items-center gap-2 bg-brand-orange text-white text-sm font-display font-600 px-4 py-2 rounded-full hover:bg-brand-amber transition-all hover:scale-105"
+              className="hidden md:inline-flex items-center gap-2 bg-brand-orange text-white text-sm font-display font-semibold px-4 py-2 rounded-full hover:bg-brand-amber transition-all hover:scale-105"
             >
               <HiArrowDownTray size={14} />
               Resume
@@ -124,7 +124,7 @@ export default function Navbar({ dark, setDark }: NavbarProps) {
                 <button
                   key={link.href}
                   onClick={() => scrollTo(link.href)}
-                  className={`text-left px-4 py-3 rounded-xl text-sm font-sans font-500 transition-all ${
+                  className={`text-left px-4 py-3 rounded-xl text-sm font-sans font-medium transition-all ${
                     active === link.href.replace('#', '')
                       ? 'text-brand-orange bg-brand-orange/10'
                       : 'text-gray-400 hover:text-white hover:bg-brand-card'
@@ -135,7 +135,7 @@ export default function Navbar({ dark, setDark }: NavbarProps) {
               ))}
               <a
                 href="#"
-                className="mt-2 inline-flex items-center justify-center gap-2 bg-brand-orange text-white text-sm font-display font-600 px-4 py-3 rounded-full"
+                className="mt-2 inline-flex items-center justify-center gap-2 bg-brand-orange text-white text-sm font-display font-semibold px-4 py-3 rounded-full"
               >
                 <HiArrowDownTray size={14} />
                 Download Resume

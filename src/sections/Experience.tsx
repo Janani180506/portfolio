@@ -31,10 +31,10 @@ export default function Experience() {
                   <HiBriefcase size={12} />
                   Internship · 3 Months
                 </div>
-                <h3 className="font-display text-2xl font-700 text-white">Web Developer Intern</h3>
+                <h3 className="font-display text-2xl font-bold text-white">Web Developer Intern</h3>
                 <p className="text-gray-400 mt-1 text-lg">CubeAI Solutions</p>
               </div>
-              <div className="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center text-brand-orange flex-shrink-0 text-2xl font-display font-700">
+              <div className="w-14 h-14 rounded-2xl bg-brand-orange/10 flex items-center justify-center text-brand-orange flex-shrink-0 text-2xl font-display font-bold">
                 C
               </div>
             </div>

@@ -63,7 +63,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              <h3 className="font-display text-xl font-700 text-white mb-3">{project.title}</h3>
+              <h3 className="font-display text-xl font-bold text-white mb-3">{project.title}</h3>
               <p className="text-gray-500 leading-relaxed text-sm mb-6 flex-1">{project.description}</p>
 
               {/* Features */}

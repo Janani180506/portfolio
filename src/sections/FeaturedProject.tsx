@@ -30,10 +30,10 @@ export default function FeaturedProject() {
                 Web Platform · React.js
               </div>
 
-              <h3 className="font-display text-4xl md:text-5xl font-700 text-white mb-4 leading-tight">
+              <h3 className="font-display text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
                 Ventro
               </h3>
-              <p className="text-gray-400 text-lg mb-3 font-display font-500">
+              <p className="text-gray-400 text-lg mb-3 font-display font-medium">
                 College Event Discovery Platform
               </p>
               <p className="text-gray-500 leading-relaxed mb-8 max-w-md">
@@ -47,7 +47,7 @@ export default function FeaturedProject() {
                 ))}
               </div>
 
-              <button className="inline-flex items-center gap-2 text-brand-orange font-display font-600 text-sm hover:gap-4 transition-all duration-300 group/btn">
+              <button className="inline-flex items-center gap-2 text-brand-orange font-display font-semibold text-sm hover:gap-4 transition-all duration-300 group/btn">
                 View Project
                 <HiArrowRight size={16} className="group-hover/btn:translate-x-1 transition-transform" />
               </button>
@@ -68,15 +68,15 @@ export default function FeaturedProject() {
                   </div>
                   <div className="p-5">
                     <div className="bg-brand-orange/10 border border-brand-orange/20 rounded-xl p-4 mb-3">
-                      <div className="font-display font-700 text-white text-sm mb-1">🎓 TechFest 2025</div>
+                      <div className="font-display font-bold text-white text-sm mb-1">🎓 TechFest 2025</div>
                       <div className="text-xs text-gray-500">Kongu Engineering College</div>
                       <div className="flex items-center justify-between mt-3">
                         <span className="text-xs text-brand-orange font-mono">Feb 12 — 14</span>
-                        <button className="text-xs bg-brand-orange text-white px-3 py-1 rounded-full font-600">Register</button>
+                        <button className="text-xs bg-brand-orange text-white px-3 py-1 rounded-full font-semibold">Register</button>
                       </div>
                     </div>
                     <div className="card-glass rounded-xl p-4 mb-3">
-                      <div className="font-display font-700 text-white text-sm mb-1">🚀 Hackathon</div>
+                      <div className="font-display font-bold text-white text-sm mb-1">🚀 Hackathon</div>
                       <div className="text-xs text-gray-500">PSG College of Technology</div>
                       <div className="flex items-center justify-between mt-3">
                         <span className="text-xs text-gray-500 font-mono">Mar 5</span>
@@ -84,7 +84,7 @@ export default function FeaturedProject() {
                       </div>
                     </div>
                     <div className="card-glass rounded-xl p-4">
-                      <div className="font-display font-700 text-white text-sm mb-1">🎨 Design Sprint</div>
+                      <div className="font-display font-bold text-white text-sm mb-1">🎨 Design Sprint</div>
                       <div className="text-xs text-gray-500">Coimbatore Institute</div>
                       <div className="flex items-center justify-between mt-3">
                         <span className="text-xs text-gray-500 font-mono">Apr 20</span>

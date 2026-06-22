@@ -45,7 +45,7 @@ export default function About() {
           >
             <p className="text-gray-400 leading-relaxed mb-6">
               I am currently pursuing B.Tech in Artificial Intelligence and Data Science at
-              <span className="text-white font-500"> Kongu Engineering College</span>. I enjoy building AI-powered
+              <span className="text-white font-medium"> Kongu Engineering College</span>. I enjoy building AI-powered
               solutions and exploring emerging technologies in Machine Learning, Computer Vision,
               and Data Science.
             </p>
@@ -64,7 +64,7 @@ export default function About() {
               ].map((item) => (
                 <div key={item.label} className="card-glass p-4 rounded-xl">
                   <div className="font-mono text-xs text-brand-orange mb-1">{item.label}</div>
-                  <div className="font-display text-sm font-600 text-white">{item.value}</div>
+                  <div className="font-display text-sm font-semibold text-white">{item.value}</div>
                 </div>
               ))}
             </div>
@@ -85,7 +85,7 @@ export default function About() {
                 <div className="w-10 h-10 rounded-xl bg-brand-orange/10 flex items-center justify-center text-brand-orange mb-4 group-hover:bg-brand-orange/20 transition-colors">
                   {card.icon}
                 </div>
-                <h3 className="font-display font-600 text-white text-sm mb-2">{card.title}</h3>
+                <h3 className="font-display font-semibold text-white text-sm mb-2">{card.title}</h3>
                 <p className="text-xs text-gray-500 leading-relaxed">{card.desc}</p>
               </motion.div>
             ))}

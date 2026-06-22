@@ -23,7 +23,7 @@ export default function Education() {
               <div className="flex items-start justify-between flex-wrap gap-4 mb-6">
                 <div>
                   <span className="font-mono text-xs text-brand-orange">2021 — 2028</span>
-                  <h3 className="font-display text-2xl font-700 text-white mt-1">
+                  <h3 className="font-display text-2xl font-bold text-white mt-1">
                     B.Tech — Artificial Intelligence & Data Science
                   </h3>
                   <p className="text-gray-400 mt-1">Kongu Engineering College, Erode</p>
@@ -50,7 +50,7 @@ export default function Education() {
                   { num: 'KEC', label: 'Institution' },
                 ].map((s) => (
                   <div key={s.label} className="bg-brand-darker/60 rounded-xl p-3 text-center">
-                    <div className="font-display font-700 text-white text-lg">{s.num}</div>
+                    <div className="font-display font-bold text-white text-lg">{s.num}</div>
                     <div className="font-mono text-xs text-gray-500 mt-1">{s.label}</div>
                   </div>
                 ))}

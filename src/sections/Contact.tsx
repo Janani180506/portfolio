@@ -70,7 +70,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-mono text-xs text-gray-600">{item.label}</div>
-                    <div className="text-sm text-gray-300 font-500">{item.value}</div>
+                    <div className="text-sm text-gray-300 font-medium">{item.value}</div>
                   </div>
                 </div>
               ))}
@@ -88,7 +88,7 @@ export default function Contact() {
             {sent ? (
               <div className="flex flex-col items-center justify-center h-full py-12 text-center">
                 <div className="text-5xl mb-4">🎉</div>
-                <h3 className="font-display text-xl font-700 text-white mb-2">Message Sent!</h3>
+                <h3 className="font-display text-xl font-bold text-white mb-2">Message Sent!</h3>
                 <p className="text-gray-500 text-sm">I'll get back to you soon.</p>
                 <button
                   onClick={() => setSent(false)}

@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-10 mb-12">
           {/* Brand */}
           <div>
-            <div className="font-display text-xl font-700 text-white mb-3">
+            <div className="font-display text-xl font-bold text-white mb-3">
               Janani<span className="text-brand-orange"> K</span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed max-w-xs">

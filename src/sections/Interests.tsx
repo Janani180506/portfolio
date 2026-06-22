@@ -34,7 +34,7 @@ export default function Interests() {
               >
                 {item.emoji}
               </motion.div>
-              <h3 className="font-display font-600 text-white text-sm mb-2 group-hover:text-brand-orange transition-colors">
+              <h3 className="font-display font-semibold text-white text-sm mb-2 group-hover:text-brand-orange transition-colors">
                 {item.title}
               </h3>
               <p className="text-xs text-gray-500">{item.desc}</p>
